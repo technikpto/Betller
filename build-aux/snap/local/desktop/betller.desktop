@@ -1,0 +1,16 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Betller coin Core
+Comment=Betller coin Core main network
+GenericName=Betller coin Digital Currency QT Client main network
+Exec=betller-core.qt %u
+Terminal=true
+Type=Application
+Icon=${SNAP}/share/pixmaps/betller.png
+MimeType=x-scheme-handler/piv;
+Categories=X-Office;X-Finance;
+Keywords=internet;betller;zpiv;core;wallet;daemon;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Version=1.0
+Name[en_US]=betller-qt.desktop
