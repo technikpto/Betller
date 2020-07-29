@@ -10,3 +10,8 @@ Treasury*: 0-20 BTLLR
 Block time: 2 Minutes
 Staking Age: 3 Hours
 Masternode collateral: 1 000 000 BTLLR
+
+
+First Header  | Second Header
+Content Cell  | Content Cell
+Content Cell  | Content Cell
