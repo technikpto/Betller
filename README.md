@@ -20,7 +20,7 @@
 
 > Masternode rewards: 440-450 BTLLR.
 
-> Treasury*: 0-20 BTLLR.
+> Treasury*: 20 BTLLR.
 
 > Block time: 2 Minutes.
 
