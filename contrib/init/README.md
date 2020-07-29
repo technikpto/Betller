@@ -1,11 +1,11 @@
 Sample configuration files for:
 ```
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
-macOS:    org.pivx.pivxd.plist
+SystemD: betllerd.service
+Upstart: betllerd.conf
+OpenRC:  betllerd.openrc
+         betllerd.openrcconf
+CentOS:  betllerd.init
+macOS:    org.betller.betllerd.plist
 ```
 have been made available to assist packagers in creating node packages here.
 
