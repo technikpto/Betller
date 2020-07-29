@@ -19,3 +19,5 @@ Secure and decentralized open-source cryptocurrency with instant and anonymous t
 > Staking Age: 3 Hours.
 
 > Masternode collateral: 1 000 000 BTLLR.
+
+More information at betller.io
