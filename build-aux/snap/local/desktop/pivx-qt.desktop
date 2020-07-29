@@ -2,14 +2,14 @@
 
 [Desktop Entry]
 Encoding=UTF-8
-Name=PIVX Core
-Comment=PIVX Core QT main network
-GenericName=PIVX Digital Currency QT client main network
-Exec=pivx-core.qt %u
+Name=Betller coin Core
+Comment=Betller Core QT main network
+GenericName=Betller Digital Currency QT client main network
+Exec=betller-core.qt %u
 Terminal=false
 Type=Application
-Icon=${SNAP}/share/pixmaps/pivx.png
+Icon=${SNAP}/share/pixmaps/betller.png
 MimeType=x-scheme-handler/pivx;
 Categories=X-Office;X-Finance;
-Keywords=internet;pivx;zpiv;piv;core;wallet;qt;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Keywords=internet;betller;zpiv;piv;core;wallet;qt;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
 Version=1.0
