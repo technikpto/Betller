@@ -28,4 +28,6 @@
 
 > Masternode collateral: 1 000 000 BTLLR.
 
+*after 72 000 block heigh
+
 [![N|Solid](https://i.imgur.com/jdkiMDF.png)](https://betller.io)
