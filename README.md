@@ -20,4 +20,4 @@ Secure and decentralized open-source cryptocurrency with instant and anonymous t
 
 > Masternode collateral: 1 000 000 BTLLR.
 
-[Imgur](https://imgur.com/jdkiMDF)(https://betller.io)
+[![N|Solid](https://i.imgur.com/jdkiMDF.png)](https://betller.io)
