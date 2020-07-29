@@ -1,4 +1,4 @@
-> Betller provides not only the best betting experience but also allows investors to create passive income  only by holding Betller Coin!  
+##### Betller provides not only the best betting experience but also allows investors to create passive income  only by holding Betller Coin!  
 
 - Secure and decentralized open-source cryptocurrency with instant and anonymous transactions. 
 - Betller blockchain is powered by Masternodes &  POS and offers different types of rewards given out to the coin holders. 
