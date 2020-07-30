@@ -6,7 +6,7 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define COMPANY "Betller project"
-!define URL https://www.pivx.org
+!define URL https://betller.io
 
 # MUI Symbol Definitions
 !define MUI_ICON "/home/remapper/Desktop/Betller/share/pixmaps/pivx.ico"
