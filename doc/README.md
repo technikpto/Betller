@@ -26,7 +26,7 @@ Drag Betller-Qt to your applications folder, and then run Betller-Qt.
 
 Building
 ---------------------
-The following are developer notes on how to build PIVX Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Betller Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
