@@ -49,7 +49,7 @@ The Betller coin repo's [root README](/README.md) contains relevant information 
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Join the [Betller telegram](https://t.me/betller_general_eng)
+* Join the [Betller Telegram](https://t.me/betller_general_eng).
 * Join the [Betller Discord](https://discord.com/invite/yt8axCA).
 
 ### Miscellaneous
