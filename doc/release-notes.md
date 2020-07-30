@@ -1,7 +1,6 @@
 Betller Core version 1.0.0.0 is now available from:  <https://github.com/betller/betller/releases/>
 ==============
 
-This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
 
 Compatibility
