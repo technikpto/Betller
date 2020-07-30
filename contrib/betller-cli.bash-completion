@@ -1,10 +1,10 @@
-# bash programmable completion for pivx-cli(1)
+# bash programmable completion for betller-cli(1)
 # Copyright (c) 2012-2016 The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-# call $pivx-cli for RPC
-_pivx_rpc() {
+# call $betller-cli for RPC
+_betller_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -14,23 +14,23 @@ _pivx_rpc() {
                 ;;
         esac
     done
-    $pivx_cli "${rpcargs[@]}" "$@"
+    $betller_cli "${rpcargs[@]}" "$@"
 }
 
 # Add wallet accounts to COMPREPLY
-_pivx_accounts() {
+_betller_accounts() {
     local accounts
-    accounts=$(_pivx_rpc listaccounts | awk -F '"' '{ print $2 }')
+    accounts=$(_betller_rpc listaccounts | awk -F '"' '{ print $2 }')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_pivx_cli() {
+_betller_cli() {
     local cur prev words=() cword
-    local pivx_cli
+    local betller_cli
 
-    # save and use original argument to invoke pivx-cli for -help, help and RPC
-    # as pivx-cli might not be in $PATH
-    pivx_cli="$1"
+    # save and use original argument to invoke betller-cli for -help, help and RPC
+    # as betller-cli might not be in $PATH
+    betller_cli="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
