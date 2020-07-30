@@ -1,19 +1,16 @@
-PIVX Core
+Betller Core
 =====================
 
 Intro
 -----
-PIVX is a free open source peer-to-peer electronic cash system that is
-completely decentralized, without the need for a central server or trusted
-parties.  Users hold the crypto keys to their own money and transact directly
-with each other, with the help of a P2P network to check for double-spending.
+Betller coin - secure and decentralized open-source cryptocurrency with instant and anonymous transactions.
 
 
 Setup
 -----
-Unpack the files into a directory and run pivx-qt.exe.
+Unpack the files into a directory and run betller-qt.exe.
 
-PIVX Core is the original PIVX client and it builds the backbone of the network.
-However, it downloads and stores the entire history of PIVX transactions;
+Betller Core is the original Betller client and it builds the backbone of the network.
+However, it downloads and stores the entire history of Betller transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
