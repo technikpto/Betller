@@ -11,14 +11,12 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'paymentservertests.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.9.7. It"
+#error "This file was generated using the moc from 5.5.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
-QT_WARNING_PUSH
-QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_PaymentServerTests_t {
     QByteArrayData data[3];
     char stringdata0[39];
@@ -77,7 +75,7 @@ void PaymentServerTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
 
 const QMetaObject PaymentServerTests::staticMetaObject = {
     { &QObject::staticMetaObject, qt_meta_stringdata_PaymentServerTests.data,
-      qt_meta_data_PaymentServerTests,  qt_static_metacall, nullptr, nullptr}
+      qt_meta_data_PaymentServerTests,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
 };
 
 
@@ -88,9 +86,9 @@ const QMetaObject *PaymentServerTests::metaObject() const
 
 void *PaymentServerTests::qt_metacast(const char *_clname)
 {
-    if (!_clname) return nullptr;
+    if (!_clname) return Q_NULLPTR;
     if (!strcmp(_clname, qt_meta_stringdata_PaymentServerTests.stringdata0))
-        return static_cast<void*>(this);
+        return static_cast<void*>(const_cast< PaymentServerTests*>(this));
     return QObject::qt_metacast(_clname);
 }
 
@@ -169,7 +167,7 @@ void RecipientCatcher::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
 
 const QMetaObject RecipientCatcher::staticMetaObject = {
     { &QObject::staticMetaObject, qt_meta_stringdata_RecipientCatcher.data,
-      qt_meta_data_RecipientCatcher,  qt_static_metacall, nullptr, nullptr}
+      qt_meta_data_RecipientCatcher,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
 };
 
 
@@ -180,9 +178,9 @@ const QMetaObject *RecipientCatcher::metaObject() const
 
 void *RecipientCatcher::qt_metacast(const char *_clname)
 {
-    if (!_clname) return nullptr;
+    if (!_clname) return Q_NULLPTR;
     if (!strcmp(_clname, qt_meta_stringdata_RecipientCatcher.stringdata0))
-        return static_cast<void*>(this);
+        return static_cast<void*>(const_cast< RecipientCatcher*>(this));
     return QObject::qt_metacast(_clname);
 }
 
@@ -202,5 +200,4 @@ int RecipientCatcher::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     }
     return _id;
 }
-QT_WARNING_POP
 QT_END_MOC_NAMESPACE
