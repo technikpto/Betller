@@ -209,12 +209,16 @@ public:
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         
-        vSeeds.push_back(CDNSSeedData("45.77.91.231", "45.77.91.231")); // Main 1
-        vSeeds.push_back(CDNSSeedData("192.248.149.212", "192.248.149.212"));         // Main 2
-        vSeeds.push_back(CDNSSeedData("95.179.194.197", "95.179.194.197")); // Main 3
-        vSeeds.push_back(CDNSSeedData("45.76.141.51", "45.76.141.51"));     // Main 4
-		vSeeds.push_back(CDNSSeedData("136.244.78.52", "136.244.78.52"));             // Main 5
-        vSeeds.push_back(CDNSSeedData("95.217.209.184", "95.217.209.184")); // Main 6
+        vSeeds.push_back(CDNSSeedData("seed1", "node1.betller.io"));
+        vSeeds.push_back(CDNSSeedData("nseed2", "node2.betller.io"));
+        vSeeds.push_back(CDNSSeedData("seed3", "node3.betller.io"));
+        vSeeds.push_back(CDNSSeedData("seed4", "node4.betller.io"));
+        vSeeds.push_back(CDNSSeedData("seed5", "node5.betller.io"));
+        vSeeds.push_back(CDNSSeedData("seed6", "node6.betller.io"));
+        vSeeds.push_back(CDNSSeedData("seed7", "node7.betller.io"));
+        vSeeds.push_back(CDNSSeedData("seed8", "node8.betller.io"));
+        vSeeds.push_back(CDNSSeedData("seed9", "node9.betller.io"));
+        vSeeds.push_back(CDNSSeedData("seed10", "node10.betller.io"));
  
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
