@@ -210,7 +210,7 @@ public:
         // Note that of those with the service bits flag, most only support a subset of possible options
         
         vSeeds.push_back(CDNSSeedData("seed1", "node1.betller.io"));
-        vSeeds.push_back(CDNSSeedData("nseed2", "node2.betller.io"));
+        vSeeds.push_back(CDNSSeedData("seed2", "node2.betller.io"));
         vSeeds.push_back(CDNSSeedData("seed3", "node3.betller.io"));
         vSeeds.push_back(CDNSSeedData("seed4", "node4.betller.io"));
         vSeeds.push_back(CDNSSeedData("seed5", "node5.betller.io"));
